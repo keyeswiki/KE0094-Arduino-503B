@@ -1,53 +1,6 @@
-Arduino电子爱好者通用元件包套件503B
+# 3、Arduino
 
-![](media/a1c9e5fade85e0a0c0f2fbf36ec1c4ad.jpg)
-
-
-# 1、说明
-
-这个套件包含我们玩单片机时使用到的常用元件，如不同阻值的电阻、不同颜色的LED灯、不同容值的电容、按键、红外遥控等。它适用于各种单片机和树莓派。我们还会根据这些元件，提供一些基于Arduino开发板的一些学习课程，包含接线方法，测试代码等，让你对这些电子元件和Arduino开发板有个初步的了解。
-
-# 2、清单
-
-|编码|名称|描述|数量|图片|
-|-|-|-|-|-|
-|1|LED|F5-红发红-短|10|![](media/7e86855c47f5791ab8752ce243c60fda.png)|
-|2|LED|F5-黄发黄-短|10|![](media/5e7e414365c594afd5c4dcf9e3110332.png)|
-|3|LED|F5-蓝发蓝-短|10|![](media/71d39b075b11601644b98e5d12fb4010.png)|
-|4|LED|F5-绿发绿-短|10|![](media/27197cd5ee82ed6e2bc2ef15c64518b2.png)|
-|5|LED|F5-全彩RGB透明共阴|2|![](media/edf0ee5faa95d2322ac7202210cbb1bf.jpg)|
-|6|电阻|碳膜色环 1/4W 1% 100R 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|7|电阻|碳膜色环 1/4W 1% 220R 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|8|电阻|碳膜色环 1/4W 1% 330R 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|9|电阻|碳膜色环 1/4W 1% 1K 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|10|电阻|碳膜色环 1/4W 1% 4.7K 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|11|电阻|碳膜色环 1/4W 1% 10K 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|12|电阻|碳膜色环 1/4W 1% 47K 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|13|电阻|碳膜色环 1/4W 1% 100K 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|14|陶瓷电容|22PF 2.54|10|![](media/c200abaaab6e66909db4246cfc40a5c3.jpg)
-|15|陶瓷电容|100PF 101 50V|10|![](media/ce63d1624b12221c500edf6f164aba98.jpg)
-|16|陶瓷电容|10NF 103 2.54|10|![](media/95b3a048aae8795c4e284634a810baa3.png)
-|17|陶瓷电容|100NF 104 2.54|10|![](media/7716d3ca251ddd2fe0e2aaefdb71c9f5.png)
-|18|电解电容|470UF 16V 8*12MM 插件|5|![](media/788dc7ac60ec2b09b89dc787d6877826.jpg)
-|19|电解电容|10UF 50V 5*11MM 插件|10|![](media/13e27da5f335be8f77b2af9bcb897f44.jpg)
-|20|按键帽|A24 白帽(12*12*7.3)圆|1|![](media/7f94aded9f45d50e15c2e6281a1bebe3.jpg)![](media/f4522a2209f122d0b094cb5e4755b211.jpg)![](media/0d34492b10fc29699d3b4a1ac7763e7d.jpg)![](media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg)|
-|21|按键帽|A24 红帽(12*12*7.3)圆|1|![](media/7f94aded9f45d50e15c2e6281a1bebe3.jpg)![](media/f4522a2209f122d0b094cb5e4755b211.jpg)![](media/0d34492b10fc29699d3b4a1ac7763e7d.jpg)![](media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg)|
-|22|按键帽|A24 蓝帽(12*12*7.3)圆|1|![](media/7f94aded9f45d50e15c2e6281a1bebe3.jpg)![](media/f4522a2209f122d0b094cb5e4755b211.jpg)![](media/0d34492b10fc29699d3b4a1ac7763e7d.jpg)![](media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg)|
-|23|按键帽|A24 黄帽(12*12*7.3)圆|1|![](media/7f94aded9f45d50e15c2e6281a1bebe3.jpg)![](media/f4522a2209f122d0b094cb5e4755b211.jpg)![](media/0d34492b10fc29699d3b4a1ac7763e7d.jpg)![](media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg)|
-|24|轻触按键|12*12*7.3MM 插件|4|![](media/7f94aded9f45d50e15c2e6281a1bebe3.jpg)![](media/f4522a2209f122d0b094cb5e4755b211.jpg)![](media/0d34492b10fc29699d3b4a1ac7763e7d.jpg)![](media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg)|
-|25|蜂鸣器|有源 12*9.5MM 5V 普通分体 2300Hz|1|![](media/5a749ec6435e3982bf4dbdc5eaf7b51e.jpg)|
-|26|蜂鸣器|无源 12*8.5MM 5V 普通分体 2K|1|![](media/0c80123578173c033dcc8f1b73b1a58b.jpg)|
-|27|可调电位器|3386MU 103（三针直排）|2|![](media/6d6025bc96667b6f44070355f2041f13.jpg)|
-|28|IC|74HC595 DIP|1|![](media/dc24a3d21371615ac26dab71e236e85e.jpg)|
-|29|传感器元件|红外接收 VS1838B|1|![](media/d6abf05eebac06b01165b65ee5ad0fc3.jpg)|
-|30|遥控器|JMP-1 17键86*40*6.5MM 黑色|1|![](media/ab057e99cf396a0688eaa3927951ef8d.jpg)|
-|31|面包板|ZY-60 400孔白色（纸卡包装）|1|![](media/5b59c759d98d3d24894a09e0ac878717.png)|
-|32|面包线|面包板连接线30根|1|![](media/aa5f4d54d5b8ec553906f3890bc2df0c.png)|
-|33|电阻卡|100*70MM|1|![](media/93852b245f0ae356fac222dadb3dbe24.jpg)|
-
-
-
-# 3、Arduino IDE和驱动的安装
+# Arduino IDE和驱动的安装
 
 当我们拿到开发板时，首先我们要安装Arduino IDE和驱动，相关文件我们可以在官网上找到，以下链接是包含各种系统、各种版本的Arduino IDE和驱动任你选择。
 
@@ -110,7 +63,7 @@ Arduino电子爱好者通用元件包套件503B
 
 ![](media/af9806622ecf816c62f7597448a3cc5f.png)
 
-# 4、Arduino IDE的使用方法
+# Arduino IDE的使用方法
 
 Keyes UNO R3
 开发板的USB驱动安装成功之后，我们可以在Windows设备管理器中找到相应的串口。
@@ -181,7 +134,7 @@ Serial.println("Hello World!");
 
 那么恭喜你，你的第一个程序已经成功了！！！
 
-# 5、实验课程
+# 实验课程
 
 ## 实验一 LED 闪烁实验
 
@@ -1410,14 +1363,5 @@ irrecv.resume(); // Receive the next value
 
 红外控灯实验时，我们将遥控器对准红外接收头，按下1 2 3 4 5 6 7 8 9 \* 0
 \#共12个按键就可控制6个LED灯的亮与灭。
-
-# 6、相关资料链接
-
-<https://pan.baidu.com/s/1JMue3KGcACZckzVIfnQHCA>
-
-提取码：egv2
-
-
-
 
 

@@ -5,9 +5,10 @@
 
    README.md
    docs/说明
+   docs/相关资料链接
    docs/清单
    docs/Arduino
-   docs/相关资料链接
+
 
 
 

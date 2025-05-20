@@ -5,103 +5,43 @@
 
 .. container:: table-wrapper
 
-   +------+------------+--------------------+------+--------------------+
-   | 编码 | 名称       | 描述               | 数量 | 图片               |
-   +======+============+====================+======+====================+
-   | 1    | LED        | F5-红发红-短       | 10   | |image97|          |
-   +------+------------+--------------------+------+--------------------+
-   | 2    | LED        | F5-黄发黄-短       | 10   | |image98|          |
-   +------+------------+--------------------+------+--------------------+
-   | 3    | LED        | F5-蓝发蓝-短       | 10   | |image99|          |
-   +------+------------+--------------------+------+--------------------+
-   | 4    | LED        | F5-绿发绿-短       | 10   | |image100|         |
-   +------+------------+--------------------+------+--------------------+
-   | 5    | LED        | F5-全彩RGB透明共阴 | 2    | |image101|         |
-   +------+------------+--------------------+------+--------------------+
-   | 6    | 电阻       | 碳膜色环 1/4W 1%   | 10   | |image102|         |
-   |      |            | 100R 编带          |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 7    | 电阻       | 碳膜色环 1/4W 1%   | 10   | |image103|         |
-   |      |            | 220R 编带          |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 8    | 电阻       | 碳膜色环 1/4W 1%   | 10   | |image104|         |
-   |      |            | 330R 编带          |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 9    | 电阻       | 碳膜色环 1/4W 1%   | 10   | |image105|         |
-   |      |            | 1K 编带            |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 10   | 电阻       | 碳膜色环 1/4W 1%   | 10   | |image106|         |
-   |      |            | 4.7K 编带          |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 11   | 电阻       | 碳膜色环 1/4W 1%   | 10   | |image107|         |
-   |      |            | 10K 编带           |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 12   | 电阻       | 碳膜色环 1/4W 1%   | 10   | |image108|         |
-   |      |            | 47K 编带           |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 13   | 电阻       | 碳膜色环 1/4W 1%   | 10   | |image109|         |
-   |      |            | 100K 编带          |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 14   | 陶瓷电容   | 22PF 2.54          | 10   | |image110|         |
-   +------+------------+--------------------+------+--------------------+
-   | 15   | 陶瓷电容   | 100PF 101 50V      | 10   | |image111|         |
-   +------+------------+--------------------+------+--------------------+
-   | 16   | 陶瓷电容   | 10NF 103 2.54      | 10   | |image112|         |
-   +------+------------+--------------------+------+--------------------+
-   | 17   | 陶瓷电容   | 100NF 104 2.54     | 10   | |image113|         |
-   +------+------------+--------------------+------+--------------------+
-   | 18   | 电解电容   | 470UF 16V 8*12MM   | 5    | |image114|         |
-   |      |            | 插件               |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 19   | 电解电容   | 10UF 50V 5*11MM    | 10   | |image115|         |
-   |      |            | 插件               |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 20   | 按键帽     | A24 白帽 12127.3   | 1    | |image116|         |
-   |      |            | 圆                 |      | \ |image117|      |
-   |      |            |                    |      | \ |image118|      |
-   |      |            |                    |      | \ |image119|      |
-   +------+------------+--------------------+------+--------------------+
-   | 21   | 按键帽     | A24 红帽 12127.3   | 1    | |image120|         |
-   |      |            | 圆                 |      | \ |image121|\ |ima |
-   |      |            |                    |      | ge122|\ |image123| |
-   +------+------------+--------------------+------+--------------------+
-   | 22   | 按键帽     | A24 蓝帽 12127.3   | 1    | |image124|         |
-   |      |            | 圆                 |      | \ |image125|\ |ima |
-   |      |            |                    |      | ge126|\ |image127| |
-   +------+------------+--------------------+------+--------------------+
-   | 23   | 按键帽     | A24 黄帽 12127.3   | 1    | |image128|         |
-   |      |            | 圆                 |      | \ |image129|\ |ima |
-   |      |            |                    |      | ge130|\ |image131| |
-   +------+------------+--------------------+------+--------------------+
-   | 24   | 轻触按键   | 12127.3MM 插件     | 4    | |image132|         |
-   |      |            |                    |      | \ |image133|\ |ima |
-   |      |            |                    |      | ge134|\ |image135| |
-   +------+------------+--------------------+------+--------------------+
-   | 25   | 蜂鸣器     | 有源12*9.5MM 5V    | 1    | |image136|         |
-   |      |            | 普通分体300Hz      |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 26   | 蜂鸣器     | 无源 12*8.5MM 5V   | 1    | |image137|         |
-   |      |            | 普通分体 2K        |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 27   | 可调电位器 | 3386MU 103         | 2    | |image138|         |
-   |      |            | 三针直排           |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 28   | IC         | 74HC595 DIP        | 1    | |image139|         |
-   +------+------------+--------------------+------+--------------------+
-   | 29   | 传感器元件 | 红外接收 VS1838B   | 1    | |image140|         |
-   +------+------------+--------------------+------+--------------------+
-   | 30   | 遥控器     | JMP-1              | 1    | |image141|         |
-   |      |            | 1                  |      |                    |
-   |      |            | 7键86\ *40*\ 6.5MM |      |                    |
-   |      |            | 黑色               |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 31   | 面包板     | ZY-60 400孔白色    | 1    | |image142|         |
-   |      |            | 纸卡包装           |      |                    |
-   +------+------------+--------------------+------+--------------------+
-   | 32   | 面包线     | 面包板连接线30根   | 1    | |image143|         |
-   +------+------------+--------------------+------+--------------------+
-   | 33   | 电阻卡     | 100*70MM           | 1    | |image144|         |
-   +------+------------+--------------------+------+--------------------+
+   ==== ========== ============================== ==== ====================
+   编码 名称       描述                           数量 图片
+   ==== ========== ============================== ==== ====================
+   1    LED        F5-红发红-短                   10   |image1|
+   2    LED        F5-黄发黄-短                   10   |image2|
+   3    LED        F5-蓝发蓝-短                   10   |image3|
+   4    LED        F5-绿发绿-短                   10   |image4|
+   5    LED        F5-全彩RGB透明共阴             2    |image5|
+   6    电阻       碳膜色环 1/4W 1% 100R 编带     10   |image6|
+   7    电阻       碳膜色环 1/4W 1% 220R 编带     10   |image7|
+   8    电阻       碳膜色环 1/4W 1% 330R 编带     10   |image8|
+   9    电阻       碳膜色环 1/4W 1% 1K 编带       10   |image9|
+   10   电阻       碳膜色环 1/4W 1% 4.7K 编带     10   |image10|
+   11   电阻       碳膜色环 1/4W 1% 10K 编带      10   |image11|
+   12   电阻       碳膜色环 1/4W 1% 47K 编带      10   |image12|
+   13   电阻       碳膜色环 1/4W 1% 100K 编带     10   |image13|
+   14   陶瓷电容   22PF 2.54                      10   |image14|
+   15   陶瓷电容   100PF 101 50V                  10   |image15|
+   16   陶瓷电容   10NF 103 2.54                  10   |image16|
+   17   陶瓷电容   100NF 104 2.54                 10   |image17|
+   18   电解电容   470UF 16V 8*12MM 插件          5    |image18|
+   19   电解电容   10UF 50V 5*11MM 插件           10   |image19|
+   20   按键帽     A24 白帽 12127.3 圆            1    |image20|
+   21   按键帽     A24 红帽 12127.3 圆            1    |image21|
+   22   按键帽     A24 蓝帽 12127.3 圆            1    |image22|
+   23   按键帽     A24 黄帽 12127.3 圆                 |image23|
+   24   轻触按键   12127.3MM 插件                 4    |image24|\ |image25|
+   25   蜂鸣器     有源12*9.5MM 5V 普通分体300Hz  1    |image26|
+   26   蜂鸣器     无源 12*8.5MM 5V 普通分体 2K   1    |image27|
+   27   可调电位器 3386MU 103 三针直排            2    |image28|
+   28   IC         74HC595 DIP                    1    |image29|
+   29   传感器元件 红外接收 VS1838B               1    |image30|
+   30   遥控器     JMP-1 17键86\ *40*\ 6.5MM 黑色 1    |image31|
+   31   面包板     ZY-60 400孔白色 纸卡包装       1    |image32|
+   32   面包线     面包板连接线30根               1    |image33|
+   33   电阻卡     100*70MM                       1    |image34|
+   ==== ========== ============================== ==== ====================
 
 .. |image1| image:: media/7e86855c47f5791ab8752ce243c60fda.png
 .. |image2| image:: media/5e7e414365c594afd5c4dcf9e3110332.png
@@ -124,126 +64,16 @@
 .. |image19| image:: media/13e27da5f335be8f77b2af9bcb897f44.jpg
 .. |image20| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
 .. |image21| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image22| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image23| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image24| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image25| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image26| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image27| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image28| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image29| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image30| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image31| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image32| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image33| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image34| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image35| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image36| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image37| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image38| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image39| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image40| image:: media/5a749ec6435e3982bf4dbdc5eaf7b51e.jpg
-.. |image41| image:: media/0c80123578173c033dcc8f1b73b1a58b.jpg
-.. |image42| image:: media/6d6025bc96667b6f44070355f2041f13.jpg
-.. |image43| image:: media/dc24a3d21371615ac26dab71e236e85e.jpg
-.. |image44| image:: media/d6abf05eebac06b01165b65ee5ad0fc3.jpg
-.. |image45| image:: media/ab057e99cf396a0688eaa3927951ef8d.jpg
-.. |image46| image:: media/5b59c759d98d3d24894a09e0ac878717.png
-.. |image47| image:: media/aa5f4d54d5b8ec553906f3890bc2df0c.png
-.. |image48| image:: media/93852b245f0ae356fac222dadb3dbe24.jpg
-.. |image49| image:: media/7e86855c47f5791ab8752ce243c60fda.png
-.. |image50| image:: media/5e7e414365c594afd5c4dcf9e3110332.png
-.. |image51| image:: media/71d39b075b11601644b98e5d12fb4010.png
-.. |image52| image:: media/27197cd5ee82ed6e2bc2ef15c64518b2.png
-.. |image53| image:: media/edf0ee5faa95d2322ac7202210cbb1bf.jpg
-.. |image54| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image55| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image56| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image57| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image58| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image59| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image60| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image61| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image62| image:: media/c200abaaab6e66909db4246cfc40a5c3.jpg
-.. |image63| image:: media/ce63d1624b12221c500edf6f164aba98.jpg
-.. |image64| image:: media/95b3a048aae8795c4e284634a810baa3.png
-.. |image65| image:: media/7716d3ca251ddd2fe0e2aaefdb71c9f5.png
-.. |image66| image:: media/788dc7ac60ec2b09b89dc787d6877826.jpg
-.. |image67| image:: media/13e27da5f335be8f77b2af9bcb897f44.jpg
-.. |image68| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image69| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image70| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image71| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image72| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image73| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image74| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image75| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image76| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image77| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image78| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image79| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image80| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image81| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image82| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image83| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image84| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image85| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image86| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image87| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image88| image:: media/5a749ec6435e3982bf4dbdc5eaf7b51e.jpg
-.. |image89| image:: media/0c80123578173c033dcc8f1b73b1a58b.jpg
-.. |image90| image:: media/6d6025bc96667b6f44070355f2041f13.jpg
-.. |image91| image:: media/dc24a3d21371615ac26dab71e236e85e.jpg
-.. |image92| image:: media/d6abf05eebac06b01165b65ee5ad0fc3.jpg
-.. |image93| image:: media/ab057e99cf396a0688eaa3927951ef8d.jpg
-.. |image94| image:: media/5b59c759d98d3d24894a09e0ac878717.png
-.. |image95| image:: media/aa5f4d54d5b8ec553906f3890bc2df0c.png
-.. |image96| image:: media/93852b245f0ae356fac222dadb3dbe24.jpg
-.. |image97| image:: media/7e86855c47f5791ab8752ce243c60fda.png
-.. |image98| image:: media/5e7e414365c594afd5c4dcf9e3110332.png
-.. |image99| image:: media/71d39b075b11601644b98e5d12fb4010.png
-.. |image100| image:: media/27197cd5ee82ed6e2bc2ef15c64518b2.png
-.. |image101| image:: media/edf0ee5faa95d2322ac7202210cbb1bf.jpg
-.. |image102| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image103| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image104| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image105| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image106| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image107| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image108| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image109| image:: media/f6a8649da4e79abb2f1d15479f073bb5.jpg
-.. |image110| image:: media/c200abaaab6e66909db4246cfc40a5c3.jpg
-.. |image111| image:: media/ce63d1624b12221c500edf6f164aba98.jpg
-.. |image112| image:: media/95b3a048aae8795c4e284634a810baa3.png
-.. |image113| image:: media/7716d3ca251ddd2fe0e2aaefdb71c9f5.png
-.. |image114| image:: media/788dc7ac60ec2b09b89dc787d6877826.jpg
-.. |image115| image:: media/13e27da5f335be8f77b2af9bcb897f44.jpg
-.. |image116| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image117| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image118| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image119| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image120| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image121| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image122| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image123| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image124| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image125| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image126| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image127| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image128| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image129| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image130| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image131| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image132| image:: media/7f94aded9f45d50e15c2e6281a1bebe3.jpg
-.. |image133| image:: media/f4522a2209f122d0b094cb5e4755b211.jpg
-.. |image134| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
-.. |image135| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
-.. |image136| image:: media/5a749ec6435e3982bf4dbdc5eaf7b51e.jpg
-.. |image137| image:: media/0c80123578173c033dcc8f1b73b1a58b.jpg
-.. |image138| image:: media/6d6025bc96667b6f44070355f2041f13.jpg
-.. |image139| image:: media/dc24a3d21371615ac26dab71e236e85e.jpg
-.. |image140| image:: media/d6abf05eebac06b01165b65ee5ad0fc3.jpg
-.. |image141| image:: media/ab057e99cf396a0688eaa3927951ef8d.jpg
-.. |image142| image:: media/5b59c759d98d3d24894a09e0ac878717.png
-.. |image143| image:: media/aa5f4d54d5b8ec553906f3890bc2df0c.png
-.. |image144| image:: media/93852b245f0ae356fac222dadb3dbe24.jpg
+.. |image22| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
+.. |image23| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
+.. |image24| image:: media/0d34492b10fc29699d3b4a1ac7763e7d.jpg
+.. |image25| image:: media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg
+.. |image26| image:: media/5a749ec6435e3982bf4dbdc5eaf7b51e.jpg
+.. |image27| image:: media/0c80123578173c033dcc8f1b73b1a58b.jpg
+.. |image28| image:: media/6d6025bc96667b6f44070355f2041f13.jpg
+.. |image29| image:: media/dc24a3d21371615ac26dab71e236e85e.jpg
+.. |image30| image:: media/d6abf05eebac06b01165b65ee5ad0fc3.jpg
+.. |image31| image:: media/ab057e99cf396a0688eaa3927951ef8d.jpg
+.. |image32| image:: media/5b59c759d98d3d24894a09e0ac878717.png
+.. |image33| image:: media/aa5f4d54d5b8ec553906f3890bc2df0c.png
+.. |image34| image:: media/93852b245f0ae356fac222dadb3dbe24.jpg
